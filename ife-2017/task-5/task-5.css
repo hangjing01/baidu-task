@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+    display: block;
+    content: "";
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix{
+    *zoom: 1;
+}
+.header{
+    width: 100%;
+    height: 60px;
+    background: #000;
+}
+ul{
+    list-style: none;
+}
+.nav {
+    position: absolute;
+    top: 20px;
+    right:20px;
+}
+.nav li{
+    float: left;
+    margin-left: 10px;
+}
+#nav_f{
+    color: gray;
+}
+.ha{
+    text-decoration: none;
+    color:#fff ;
+}
+body{
+    background:rgb(222,222,222) ;
+    width: 100%;
+}
+.main{
+    width: 100%;
+}
+.main .leftForm{
+    float: left;
+    width: 58%;
+    box-sizing: border-box;
+}
+.main .article{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(203,203,203);
+}
+.article p{
+    text-indent: 2em;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.article h2,.article h3{
+    margin-top: 20px;
+}
+.article span{
+    line-height: 50px;
+}
+img{
+    margin: 20px 0;
+}
+.article h3{
+    font-size: 30px;
+}
+.article li{
+    margin: 10px;
+}
+.box{
+    border: 1px solid rgb(222,222,222);
+    width: 200px ;
+    padding: 20px;
+    margin: 20px 60px;
+}
+.box img{
+    width: 100%;
+}
+.picTitle{
+    text-align: center;
+}
+.rank{
+    margin-left:25px;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+    border-collapse:collapse;
+
+}
+th{
+    background: #000;
+    color:#fff;
+    text-align:left;
+    font-size: 10px;
+    padding:5px;
+}
+td {
+    border:1px solid rgb(225,225,225);
+    padding:5px;
+    font-size: 10px;
+}
+#tbLast td{
+    background: rgb(204,204,204);
+    font-weight: bold;
+}
+.main .rightForm{
+    background-color: #fff;
+    float: right;
+    width: 30%;
+    /*display: inline-block;*/
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(203,203,203);
+}
+#title{
+    border-left: 3px solid rgb(204,204,204);
+    font-size: 17px;
+    padding: 7px;
+}
+.main .rightForm form span{
+    display: inline-block;
+    font-size: 14px;
+    width: 100px;
+    text-align: right;
+    margin-right: 20px;
+}
+.main .rightForm form input{
+    display: inline-block;
+    width: 180px;
+    margin: 20px 40px 0 0;
+
+}
+.main .rightForm form p{
+    font-size: 14px;
+    color: #ccc;
+    margin-left: 125px;
+    margin-top: 15px;
+}
+.main .rightForm form .sex{
+    margin: 30px 40px 0 20px;
+    display: inline-block;
+}
+.main .rightForm form .sex input{
+    width: 20px;
+    margin: 0;
+
+}
+.city #city{
+    margin-top: 20px;
+}
+.main .rightForm form .hobby{
+    margin-top: 20px;
+}
+.main .rightForm form .hobby input{
+    width: 20px;
+    margin: 0;
+}
+.main .rightForm form .describe{
+    margin-top: 20px;
+}
+.main .rightForm form button{
+    background-color: blue;
+    font-size: 20px;
+    color: #fff;
+    width: 100%;
+    line-height: 40px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    background: #000;
+    text-align: center;
+}
+.copy{
+    color: #fff;
+    font-size: 10px;
+    position: relative;
+    top: 10px;
+}
+
+
+
+
